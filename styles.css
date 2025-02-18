@@ -2,6 +2,7 @@
 
 :root {
     --cor1: rgb(80, 5, 131);
+    --cor2:  rgb(129, 30, 196);
 
 }
 
@@ -17,7 +18,7 @@ body {
 
 header {
     background-color: #0d0d1a;
-    color: var(--cor1);
+    color: var(--cor2);
     padding: 20px;
     text-align: center;
 }
