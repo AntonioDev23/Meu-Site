@@ -23,6 +23,10 @@ header {
     text-align: center;
 }
 
+h2 {
+    text-align: center;
+}
+
 nav {
     background-color: #333;
     padding: 10px;
@@ -60,15 +64,25 @@ nav ul li a:hover {
 /* Seção Sobre */
 .sobre-content {
     display: flex;
-    align-items: center;
+    flex-direction: column; /* Coloca a foto e a descrição em coluna */
+    align-items: center; /* Centraliza horizontalmente */
+    text-align: center; /* Centraliza o texto */
     padding: 20px;
+    max-width: 600px; /* Limita a largura para não ocupar a tela toda */
+    margin: 0 auto; /* Centraliza o conteúdo na página */
 }
 
 .sobre-imagem {
     width: 150px;
     height: 150px;
     border-radius: 50%;
-    margin-right: 20px;
+    margin-bottom: 20px; /* Espaço entre a foto e a descrição */
+}
+
+.sobre-descricao {
+    font-size: 1.1em;
+    line-height: 1.6;
+    color: #ccc; /* Cor do texto mais suave */
 }
 
 /* Seção Projetos */
