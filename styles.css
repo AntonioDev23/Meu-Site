@@ -25,6 +25,7 @@ header {
 
 h2 {
     text-align: center;
+    color: aqua;
 }
 
 nav {
@@ -46,7 +47,7 @@ nav ul li {
 }
 
 nav ul li a {
-    color: white;
+    color: rgb(47, 184, 29);
     text-decoration: none;
     font-weight: bold;
 }
